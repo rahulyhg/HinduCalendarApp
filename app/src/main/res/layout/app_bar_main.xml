@@ -23,7 +23,6 @@
     <include layout="@layout/content_main" />
 
 
-
     <LinearLayout
         android:id="@+id/design_bottom_sheet"
         android:layout_width="match_parent"
@@ -35,7 +34,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="8dp"
         app:behavior_hideable="false"
-        app:behavior_peekHeight="40dp"
+        app:behavior_peekHeight="400dp"
         app:elevation="50dp"
         app:layout_behavior="@string/bottom_sheet_behavior">
 
@@ -64,6 +63,12 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1">
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sunrise_color"
+                    />
+
                 <LinearLayout
                     android:layout_width="match_parent"
 
@@ -80,11 +85,11 @@
                         />
 
                     <TextView
+                        android:id="@+id/bottomSheet_sunRise_textView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="05:30"
                         android:textAlignment="center"
-                        android:id="@+id/bottomSheet_sunRise_textView"
 
                         />
 
@@ -99,8 +104,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
+                android:layout_weight="1"
 
-                android:layout_weight="1">
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:background="@drawable/sunset_color"
+                    android:layout_height="match_parent" />
 
 
                 <LinearLayout
@@ -119,11 +129,11 @@
                         />
 
                     <TextView
+                        android:id="@+id/bottomSheet_sunSet_textView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bottomSheet_sunSet_textView"
-                        android:textAlignment="center"
                         android:text="18:03"
+                        android:textAlignment="center"
 
                         />
 
@@ -138,11 +148,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Other Events "
-            android:textColor="#ffffff"
-            android:textAlignment="center"
             android:layout_marginTop="30dp"
-            />
+            android:text="Other Events "
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
 
     </LinearLayout>
 
@@ -152,9 +161,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#ffffff"
         app:layout_anchor="@id/design_bottom_sheet"
         app:layout_anchorGravity="right|top"
-        app:backgroundTint="#ffffff"
         app:srcCompat="@android:drawable/ic_input_add" />
 
 

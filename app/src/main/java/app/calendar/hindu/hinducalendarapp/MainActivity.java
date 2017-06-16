@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity
         });
 
         calendarView.setShowWeekNumber(true);
+
     }
 
     private void updateBottomSheet(int year, int month, int dayOfMonth) {
