@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.calendar.hindu.hinducalendarapp.Calendar"
+    tools:showIn="@layout/activity_calendar">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sun"
+                android:layout_weight="1"
+                />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Mon"
+                android:layout_weight="1"
+
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tue"
+                android:layout_weight="1"
+
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Wed"
+                android:layout_weight="1"
+
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Thus"
+                android:layout_weight="1"
+
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Fri"
+                android:layout_weight="1"
+
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sat"
+                android:layout_weight="1"
+
+                />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="7"
+            >
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="1"
+                        style="@style/DateTextViewStyle"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nDurgashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="2"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nDurgashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="3"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nDurgashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="4"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nDurgashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="5"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nDurgashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="6"
+                        />
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nDurgashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="7"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nDurgashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_weight="1"
+
+            >
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="8"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="9"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="10"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="11"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="12"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nYogni"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="13"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="14"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nEkadashi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_weight="1"
+            >
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="15"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="16"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nKalashtmi"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="17"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="18"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="19"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="20"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\namavysya"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="21"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_weight="1"
+            >
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="22"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="23"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="24"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="25"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nPradosh "
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="26"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="27"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="28"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_weight="1"
+            >
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="29"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="30"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="31"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+                        android:text="Jyestha\nNirjala"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="4"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="5"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="6"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="7"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_weight="1"
+            >
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="1"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="2"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="3"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="4"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="5"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="6"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                style="@style/CellCardStyle"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/DateTextViewStyle"
+                        android:text="7"
+                        />
+
+                    <TextView
+                        style="@style/EventTextviewStyle"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+</LinearLayout>
