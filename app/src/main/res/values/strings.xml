@@ -6,4 +6,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_calender_grid_view">CalenderGridView</string>
+    <string name="title_activity_date_full_detail">DateFullDetailActivity</string>
 </resources>
